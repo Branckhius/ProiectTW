@@ -15,10 +15,18 @@
         <div class="grid-container">
             <div class="grid-item">
                 <h1 class="titlu">Vremea in România</h1>
+                <div class="dropdown">
+                    <p class="dropbtn">Meniu</p>
+                    <div class="dropdown-content">
+                        <a href="#2018">2018</a>
+                        <a href="#2010">2010</a>
+                        <a href="#noutati">Noutati</a>
+                    </div>
+                </div>
             </div>
             <aside class="grid-item">
-                <div class="poza"><img
-                        src="https://scontent-otp1-1.xx.fbcdn.net/v/t1.6435-9/62109458_2768676869874099_9026268462858633216_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFlbD_uuQTyD5NuyknunQkGgag-48fZTCGBqD7jx9lMIQvwVYOldQ_0ukfhQiLFd7pDBEZnrdzMCsCTGYjYXtve&_nc_ohc=1SHSUwOfZ18AX_jquv3&_nc_ht=scontent-otp1-1.xx&oh=00_AfCioE41SqxI4lKsffUXsmMMZ3viWs3OQtAkqKytRumEkw&oe=64823607" />
+                <div class="poza"><img 
+                        src="https://scontent-otp1-1.xx.fbcdn.net/v/t1.6435-9/62109458_2768676869874099_9026268462858633216_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFlbD_uuQTyD5NuyknunQkGgag-48fZTCGBqD7jx9lMIQvwVYOldQ_0ukfhQiLFd7pDBEZnrdzMCsCTGYjYXtve&_nc_ohc=1SHSUwOfZ18AX_jquv3&_nc_ht=scontent-otp1-1.xx&oh=00_AfCioE41SqxI4lKsffUXsmMMZ3viWs3OQtAkqKytRumEkw&oe=64823607"  id="image1" />
                 </div>
             </aside>
             <div class="grid-item">
@@ -29,7 +37,8 @@
                     meteorologia
                     romaneasca.
                 </p>
-                <p class="text">2018.</p>
+
+                <p class="text" id="2018">2018.</p>
                 <p class="text">
                     În zilele de 15 și 16 februarie 2018, Secretarul General al Organizației Meteorologice Mondiale,
                     domnul
@@ -90,7 +99,7 @@
                     Meteorologie. Având în vedere complexitatea tematicii abordate, acest eveniment a fost dedicat
                     sărbătoririi Centenarului Marii Uniri.
                 </p>
-                <p class="text">2010.</p>
+                <p class="text" id="2010">2010.</p>
                 <p class="text">
                     Administratia Nationala de Meteorologie devine membru EUMETCAL (Invatamant Meteorologic European
                     Asistat
@@ -113,13 +122,13 @@
                 </p>
             </div>
             <aside class="grid-item">
-                <div class="poza"><img src="https://i.pinimg.com/236x/61/ae/e8/61aee8082fa825124ba3d2244d760276.jpg" />
+                <div class="poza"><img src="https://i.pinimg.com/236x/61/ae/e8/61aee8082fa825124ba3d2244d760276.jpg" id="image2" />
                 </div>
             </aside>
         </div>
-        <div class="adauga"><input type="text" placeholder="Adauga informatii noi despre anotimpurile din 2023" name="text" size="180" /><input
-                type="submit" /><input type="Reset"/> </div>
-        <div class="flex">
+        <div class="adauga"><input type="text" placeholder="Adauga informatii noi despre anotimpurile din 2022"
+                name="text" size="180" /><input type="submit" /><input type="reset" /> </div>
+        <div class="flex" id="noutati">
             <section class="coloane">
                 <h2>Iarna</h2>
                 <ul id="iarna"></ul>
