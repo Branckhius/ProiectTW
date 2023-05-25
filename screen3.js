@@ -1,5 +1,10 @@
 
 window.addEventListener('load', function () {
+    const dropbtn = document.querySelector(".dropbtn");
+    dropbtn.addEventListener("click", function (event) {
+        console.log("target:", event.target);
+        console.log("currentTarget:", event.currentTarget);
+    });
         if (localStorage.getItem("iarna")) {
             document.getElementById("iarna").innerHTML = localStorage.getItem("iarna");
         }
